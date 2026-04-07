@@ -182,4 +182,3 @@ xychart-beta
     bar "ROUGE-L" [0.2712, 0.4523, 0.4523]
     bar "BERTScore F1" [0.8781, 0.9178, 0.9178]
 
-Github Link: https://github.com/DinishaSuryawanshi/sfa631_NLP-Assignment3
