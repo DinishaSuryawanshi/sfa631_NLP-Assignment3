@@ -1,0 +1,2 @@
+cuda: True
+gpu: Tesla V100S-PCIE-32GB

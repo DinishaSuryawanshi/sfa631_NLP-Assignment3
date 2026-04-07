@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Hugging Face / cache
+.cache/
+.huggingface/
+hf_cache/
+
+# Large training outputs - do NOT push model weights/checkpoints
+outputs/stage1_alpaca/
+outputs/stage2.json/
+
+# But keep evaluation outputs and logs
+!outputs/evals/
+!outputs/evals/**
+!logs/
+!logs/**
+
+# Artifacts
+artifacts/loss_curves/*.png
+
+# If any accidental large binaries appear
+*.safetensors
+*.bin

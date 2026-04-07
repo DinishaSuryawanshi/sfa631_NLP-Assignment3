@@ -1,0 +1,33 @@
+System Prompt:
+You are a strict evaluator. Return one JSON object only. No markdown. No prose outside JSON.
+
+User Prompt:
+You are an impartial evaluator comparing two responses to the same instruction.
+
+Your task:
+- Decide which response is better overall.
+- Prefer "Tie" if they are effectively equivalent.
+- Consider instruction-following, correctness, clarity, and completeness.
+- Do not favor longer responses unless they are actually better.
+
+Return ONLY valid JSON with this exact schema:
+{
+  "winner": "A" or "B" or "Tie",
+  "justification": "one short sentence"
+}
+
+Do not include markdown.
+Do not include code fences.
+Do not include any text before or after the JSON object.
+
+Instruction:
+{instruction}
+
+Input:
+{input_block}
+
+Response A:
+{response_a}
+
+Response B:
+{response_b}

@@ -1,0 +1,8 @@
+{
+  "num_examples": 11,
+  "json_valid_count": 8,
+  "json_valid_rate": 0.7272727272727273,
+  "exact_match_count": 5,
+  "exact_match_rate": 0.45454545454545453,
+  "json_eval_file_used": "data/json_train.json"
+}

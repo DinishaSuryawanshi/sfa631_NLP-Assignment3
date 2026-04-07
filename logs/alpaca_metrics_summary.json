@@ -1,0 +1,32 @@
+[
+  {
+    "run_name": "C0",
+    "num_examples": 100,
+    "rouge1": 0.39068198940699883,
+    "rouge2": 0.18917878714671751,
+    "rougeL": 0.27116292948186604,
+    "bertscore_precision_mean": 0.8607543677091598,
+    "bertscore_recall_mean": 0.8978068071603775,
+    "bertscore_f1_mean": 0.8781279790401458
+  },
+  {
+    "run_name": "C1",
+    "num_examples": 100,
+    "rouge1": 0.5652369760947019,
+    "rouge2": 0.33244292349719856,
+    "rougeL": 0.45225777653251387,
+    "bertscore_precision_mean": 0.9226210844516755,
+    "bertscore_recall_mean": 0.9135698628425598,
+    "bertscore_f1_mean": 0.917781509757042
+  },
+  {
+    "run_name": "C2",
+    "num_examples": 100,
+    "rouge1": 0.5652369760947019,
+    "rouge2": 0.33244292349719856,
+    "rougeL": 0.45225777653251387,
+    "bertscore_precision_mean": 0.9226210844516755,
+    "bertscore_recall_mean": 0.9135698628425598,
+    "bertscore_f1_mean": 0.917781509757042
+  }
+]

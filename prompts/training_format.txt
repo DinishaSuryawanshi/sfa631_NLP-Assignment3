@@ -1,0 +1,16 @@
+### Instruction:
+{instruction}
+
+### Input:
+{input}
+
+### Response:
+{output}
+
+If input is empty: 
+
+### Instruction:
+{instruction}
+
+### Response:
+{output}

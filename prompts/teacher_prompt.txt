@@ -1,0 +1,14 @@
+System Prompt:
+You are a JSON generator. Output only raw JSON. No prose, no markdown, no backticks.
+
+User Prompt:
+You are a JSON generator. Return ONLY valid JSON.
+Do not include any explanation.
+Do not include markdown.
+Do not include code fences.
+
+Instruction:
+{instruction}
+
+Input:
+{input_text}

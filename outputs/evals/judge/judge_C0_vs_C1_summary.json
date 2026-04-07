@@ -1,0 +1,28 @@
+{
+  "comparison": "C0_vs_C1",
+  "num_examples": 100,
+  "valid_judgments": 21,
+  "parse_failures": 79,
+  "a_label": "C0",
+  "b_label": "C1",
+  "a_wins": 5,
+  "b_wins": 1,
+  "ties": 15,
+  "a_win_rate": 0.23809523809523808,
+  "b_win_rate": 0.047619047619047616,
+  "tie_rate": 0.7142857142857143,
+  "response_a_score_means": {
+    "instruction_following": 5.0,
+    "correctness": 5.0,
+    "clarity": 4.9523809523809526,
+    "completeness": 4.904761904761905,
+    "hallucination_risk": 1.0
+  },
+  "response_b_score_means": {
+    "instruction_following": 4.761904761904762,
+    "correctness": 4.809523809523809,
+    "clarity": 4.619047619047619,
+    "completeness": 4.476190476190476,
+    "hallucination_risk": 1.0476190476190477
+  }
+}

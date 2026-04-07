@@ -1,0 +1,57 @@
+[
+  {
+    "instruction": "Extract names into JSON.",
+    "input": "Alice and Bob went to Denver.",
+    "output": "{\"names\": [\"Alice\", \"Bob\"]}"
+  },
+  {
+    "instruction": "Extract cities into JSON.",
+    "input": "I lived in Austin, Dallas, Houston.",
+    "output": "{\"cities\": [\"Austin\", \"Dallas\", \"Houston\"]}"
+  },
+  {
+    "instruction": "Extract emails into JSON.",
+    "input": "Email a@x.com and b@y.com.",
+    "output": "{\"emails\": [\"a@x.com\", \"b@y.com\"]}"
+  },
+  {
+    "instruction": "Provide JSON for car {make, model, year}.",
+    "input": "2020 Toyota Camry",
+    "output": "{\"make\": \"Toyota\", \"model\": \"Camry\", \"year\": 2020}"
+  },
+  {
+    "instruction": "Provide JSON for book {title, author, year}.",
+    "input": "Dune by Frank Herbert 1965",
+    "output": "{\"title\": \"Dune\", \"author\": \"Frank Herbert\", \"year\": 1965}"
+  },
+  {
+    "instruction": "Classify sentiment JSON {label}.",
+    "input": "This is amazing!",
+    "output": "{\"label\": \"positive\"}"
+  },
+  {
+    "instruction": "Classify sentiment JSON {label}.",
+    "input": "This is terrible.",
+    "output": "{\"label\": \"negative\"}"
+  },
+  {
+    "instruction": "Fix broken JSON.",
+    "input": "{name: 'John' age: 30}",
+    "output": "{\"name\": \"John\", \"age\": 30}"
+  },
+  {
+    "instruction": "Fix broken JSON.",
+    "input": "{city: Austin state: TX}",
+    "output": "{\"city\": \"Austin\", \"state\": \"TX\"}"
+  },
+  {
+    "instruction": "Generate JSON call for get_weather(city).",
+    "input": "Weather in Austin",
+    "output": "{\"function\": \"get_weather\", \"city\": \"Austin\"}"
+  },
+  {
+    "instruction": "Generate JSON call for send_email(to, subject).",
+    "input": "Email bob@test.com subject Hello",
+    "output": "{\"function\": \"send_email\", \"args\": [\"bob@test.com\", \"Hello\"]}"
+  }
+]

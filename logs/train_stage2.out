@@ -1,0 +1,6 @@
+Stage 2 completed successfully.
+Dataset: data/json_train.json
+Output dir: outputs/stage2.json
+Train loss: 1.217
+Epochs: 2
+Runtime: 5.492s

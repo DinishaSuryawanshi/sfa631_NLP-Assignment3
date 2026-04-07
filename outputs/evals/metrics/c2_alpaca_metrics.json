@@ -1,0 +1,10 @@
+{
+  "run_name": "C2",
+  "num_examples": 100,
+  "rouge1": 0.5652369760947019,
+  "rouge2": 0.33244292349719856,
+  "rougeL": 0.45225777653251387,
+  "bertscore_precision_mean": 0.9226210844516755,
+  "bertscore_recall_mean": 0.9135698628425598,
+  "bertscore_f1_mean": 0.917781509757042
+}

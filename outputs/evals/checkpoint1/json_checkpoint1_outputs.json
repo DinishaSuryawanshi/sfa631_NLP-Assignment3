@@ -1,0 +1,101 @@
+[
+  {
+    "id": 0,
+    "instruction": "Extract names into JSON.",
+    "input": "Alice and Bob went to Denver.",
+    "reference_output": "{\"names\": [\"Alice\", \"Bob\"]}",
+    "model_output": "{\n  \"names\": [\n    \"Alice\",\n    \"Bob\"\n  ]\n}",
+    "json_valid": true,
+    "exact_match": true
+  },
+  {
+    "id": 1,
+    "instruction": "Extract cities into JSON.",
+    "input": "I lived in Austin, Dallas, Houston.",
+    "reference_output": "{\"cities\": [\"Austin\", \"Dallas\", \"Houston\"]}",
+    "model_output": "{\n  \"cities\": [\n    \"Austin\",\n    \"Dallas\",\n    \"Houston\"\n  ]\n}",
+    "json_valid": true,
+    "exact_match": true
+  },
+  {
+    "id": 2,
+    "instruction": "Extract emails into JSON.",
+    "input": "Email a@x.com and b@y.com.",
+    "reference_output": "{\"emails\": [\"a@x.com\", \"b@y.com\"]}",
+    "model_output": "{\n  \"emails\": [\n    {\n      \"email\": \"a@x.com\"\n    },\n    {\n      \"email\": \"b@y.com\"\n    }\n  ]\n}",
+    "json_valid": true,
+    "exact_match": false
+  },
+  {
+    "id": 3,
+    "instruction": "Provide JSON for car {make, model, year}.",
+    "input": "2020 Toyota Camry",
+    "reference_output": "{\"make\": \"Toyota\", \"model\": \"Camry\", \"year\": 2020}",
+    "model_output": "Here is the JSON representation for the car:\n\n```\n{\n  \"make\": \"Toyota\",\n  \"model\": \"Camry\",\n  \"year\": 2020\n}\n```",
+    "json_valid": false,
+    "exact_match": false
+  },
+  {
+    "id": 4,
+    "instruction": "Provide JSON for book {title, author, year}.",
+    "input": "Dune by Frank Herbert 1965",
+    "reference_output": "{\"title\": \"Dune\", \"author\": \"Frank Herbert\", \"year\": 1965}",
+    "model_output": "{\n  \"title\": \"Dune\",\n  \"author\": \"Frank Herbert\",\n  \"year\": 1965\n}",
+    "json_valid": true,
+    "exact_match": true
+  },
+  {
+    "id": 5,
+    "instruction": "Classify sentiment JSON {label}.",
+    "input": "This is amazing!",
+    "reference_output": "{\"label\": \"positive\"}",
+    "model_output": "The sentiment of the given input \"This is amazing!\" is positive.",
+    "json_valid": false,
+    "exact_match": false
+  },
+  {
+    "id": 6,
+    "instruction": "Classify sentiment JSON {label}.",
+    "input": "This is terrible.",
+    "reference_output": "{\"label\": \"negative\"}",
+    "model_output": "The sentiment of the given input \"This is terrible.\" is negative.",
+    "json_valid": false,
+    "exact_match": false
+  },
+  {
+    "id": 7,
+    "instruction": "Fix broken JSON.",
+    "input": "{name: 'John' age: 30}",
+    "reference_output": "{\"name\": \"John\", \"age\": 30}",
+    "model_output": "{\n  \"name\": \"John\",\n  \"age\": 30\n}",
+    "json_valid": true,
+    "exact_match": true
+  },
+  {
+    "id": 8,
+    "instruction": "Fix broken JSON.",
+    "input": "{city: Austin state: TX}",
+    "reference_output": "{\"city\": \"Austin\", \"state\": \"TX\"}",
+    "model_output": "{\n  \"city\": \"Austin\",\n  \"state\": \"TX\"\n}",
+    "json_valid": true,
+    "exact_match": true
+  },
+  {
+    "id": 9,
+    "instruction": "Generate JSON call for get_weather(city).",
+    "input": "Weather in Austin",
+    "reference_output": "{\"function\": \"get_weather\", \"city\": \"Austin\"}",
+    "model_output": "{\n  \"action\": \"get_weather\",\n  \"parameters\": {\n    \"city\": \"Austin\"\n  }\n}",
+    "json_valid": true,
+    "exact_match": false
+  },
+  {
+    "id": 10,
+    "instruction": "Generate JSON call for send_email(to, subject).",
+    "input": "Email bob@test.com subject Hello",
+    "reference_output": "{\"function\": \"send_email\", \"args\": [\"bob@test.com\", \"Hello\"]}",
+    "model_output": "{\n  \"to\": \"bob@test.com\",\n  \"subject\": \"Hello\"\n}",
+    "json_valid": true,
+    "exact_match": false
+  }
+]

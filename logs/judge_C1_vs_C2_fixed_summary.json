@@ -1,0 +1,14 @@
+{
+  "comparison": "C1_vs_C2",
+  "num_examples": 100,
+  "valid_judgments": 100,
+  "parse_failures": 0,
+  "a_label": "C1",
+  "b_label": "C2",
+  "a_wins": 0,
+  "b_wins": 0,
+  "ties": 100,
+  "a_win_rate": 0.0,
+  "b_win_rate": 0.0,
+  "tie_rate": 1.0
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "id": 0,
+    "instruction": "Give three tips for staying healthy.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response A provides more detailed and specific health tips.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 1,
+    "instruction": "What are the three primary colors?",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response B directly answers the initial question about primary colors.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 2,
+    "instruction": "Describe the structure of an atom.",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response B is more concise and directly addresses the structure of an atom.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 3,
+    "instruction": "How can we reduce air pollution?",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B provides a more comprehensive and organized approach to reducing air pollution.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 4,
+    "instruction": "Pretend you are a project manager of a construction company. Describe a time when you had to make a difficult decision.",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response B provides a more complete and specific example of a difficult decision made as a project manager.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 5,
+    "instruction": "Write a concise summary of the following:\n\"Commodore 64 (commonly known as the C64 or CBM 64) was manufactured by Commodore Business Machine (CBM) in August 1982 with a starting price of $595. It was an 8-bit home computer with remarkable market success. Between 1983-1986, C64 sales amounted to about 17 million units sold, making them the best-selling single personal computer model of all time in 1983-1986. \n\nAdditionally, the Commodore 64 dominated the market with between 30% and 40% share and 2 million units sold per year, outselling the IBM PC clones, Apple Computers, and Atari computers. Adding to their success, Sam Tramiel (former Atari president), during an interview in 1989, said they were building 400,000 C64s a month for a couple of years. \"",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response A provides a more comprehensive and polished summary.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 6,
+    "instruction": "Explain why the following fraction is equivalent to 1/4",
+    "input": "4/16",
+    "winner": "C0",
+    "justification": "Response A provides a more detailed and step-by-step explanation of the simplification process.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 7,
+    "instruction": "Write a short story in third person narration about a protagonist who has to make an important career decision.",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses are incomplete but effectively equivalent in terms of instruction-following and narrative setup.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 8,
+    "instruction": "Evaluate this sentence for spelling and grammar mistakes",
+    "input": "He finnished his meal and left the resturant",
+    "winner": "C0",
+    "justification": "Response A correctly identified and corrected the spelling mistakes.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 9,
+    "instruction": "How did Julius Caesar die?",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses accurately describe Julius Caesar's death in a clear and complete manner.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 10,
+    "instruction": "What is the capital of France?",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses are identical and correct.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 11,
+    "instruction": "Generate a list of ten items a person might need for a camping trip",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B includes more specific and detailed items like camping cookware.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 12,
+    "instruction": "Discuss the causes of the Great Depression",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses provide similar information and explanations for the causes of the Great Depression.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 13,
+    "instruction": "Classify the following into animals, plants, and minerals",
+    "input": "Oak tree, copper ore, elephant",
+    "winner": "C0",
+    "justification": "Response B is more comprehensive and provides additional relevant information.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 14,
+    "instruction": "Explain the use of word embeddings in Natural Language Processing",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses effectively explain word embeddings in NLP with similar clarity and completeness.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 15,
+    "instruction": "Describe the function of a computer motherboard",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response A provides a more detailed and comprehensive description of the motherboard's function.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 16,
+    "instruction": "Refactor this code and add comments.",
+    "input": "def factorialize(num):\n  factorial = 1\n  for i in range(1, num):\n    factorial *= i\n  \n  return factorial",
+    "winner": "C0",
+    "justification": "Response A includes a docstring and more detailed comments.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 17,
+    "instruction": "Propose an ethical solution to the problem of data privacy",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses provide comprehensive and similar solutions to the problem of data privacy.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 18,
+    "instruction": "Generate three verbs that mean the same as \"to apologize\"",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response B provides more accurate and common alternatives to apologize.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 19,
+    "instruction": "What does DNA stand for?",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses accurately define DNA and provide a clear explanation of its composition and function.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 20,
+    "instruction": "Compare and contrast the Cuban Missile Crisis and the Vietnam War.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B provides a clearer and more organized comparison of the two events.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 21,
+    "instruction": "Generate a list of random words.",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses provide a list of 20 random words.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 22,
+    "instruction": "Based on the information provided, rewrite the sentence by changing its tense from past to future.",
+    "input": "She played the piano beautifully for hours and then stopped as it was midnight.",
+    "winner": "Tie",
+    "justification": "Both responses accurately follow the given instructions.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 23,
+    "instruction": "Who is the world's most famous painter?",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response A provides more detailed and specific information about the painters.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 24,
+    "instruction": "Explain the concept of cogging torque.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B provides a more detailed and technical explanation of cogging torque.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 25,
+    "instruction": "Look up the boiling point of water.",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses accurately state the boiling point of water at standard atmospheric pressure.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 26,
+    "instruction": "Describe the life and reign of King Charles II.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B provides more detailed and accurate historical context about King Charles II's life and reign.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 27,
+    "instruction": "Find the area of a circle given its radius.",
+    "input": "Radius = 4",
+    "winner": "C0",
+    "justification": "Response B provides a numerical answer using an approximation of \u03c0.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 28,
+    "instruction": "Identify the lines of longitude that divides North and South America.",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Neither response accurately identifies the line of longitude that divides North and South America.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 29,
+    "instruction": "Explain the process of cellular respiration in plants.",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response B provides a more complete overview of cellular respiration in plants.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 30,
+    "instruction": "Rewrite the following sentence using active voice.",
+    "input": "The news report was read by the captain.",
+    "winner": "C1",
+    "justification": "Response A correctly rewrote the sentence in active voice.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 31,
+    "instruction": "Generate a list of adjectives that describe a person as brave.",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response B has a more varied and accurate list of adjectives describing a brave person.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 32,
+    "instruction": "Outline the consequences of deforestation.",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses effectively outline the consequences of deforestation with similar points and clarity.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 33,
+    "instruction": "Develop a plan to reduce electricity usage in a home.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B provides more comprehensive and detailed steps to reduce electricity usage.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 34,
+    "instruction": "Arrange the words in the given sentence to form a grammatically correct sentence.",
+    "input": "quickly the brown fox jumped",
+    "winner": "C0",
+    "justification": "Response A correctly rearranged the input words into a grammatically correct sentence.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 35,
+    "instruction": "Analyze the given text for its tone.",
+    "input": "The world has been greatly impacted by the COVID-19 pandemic and it has drastically changed our lives.",
+    "winner": "C0",
+    "justification": "Response A is more detailed and accurate in its analysis of the tone.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 36,
+    "instruction": "The sum of the digits of the year 2004 is 6. What is the first year after 2000 for which the sum of the digits is 12?",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses are incomplete and do not provide the correct answer.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 37,
+    "instruction": "Rewrite the given paragraph in a shorter, easier to understand form.",
+    "input": "Although it is generally accepted that the internet has allowed us to connect with people all over the world, there are still those people who are not familiar with its basic functions, who don\u2019t understand why it has become so commonplace, or what its true capabilities are.",
+    "winner": "C1",
+    "justification": "Response A is more concise and directly conveys the main idea.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 38,
+    "instruction": "Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\nFounded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.\n\nAlmost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.\n\nQuestion: What is the best restaurant in Berlin?",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses correctly state a lack of knowledge to answer the question.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 39,
+    "instruction": "Generate a poem that expresses joy.",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses are well-structured poems that effectively express joy.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 40,
+    "instruction": "Find the real root of the equation \n sqrt(x) + sqrt(x+2) = 10.\n",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses are effectively equivalent and provide the same steps to solve the equation.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 41,
+    "instruction": "Brainstorm possible solutions to reduce water pollution.",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses provide similar and comprehensive solutions to reduce water pollution.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 42,
+    "instruction": "Explain why the given definition is wrong.",
+    "input": "A mole is an animal that lives underground.",
+    "winner": "Tie",
+    "justification": "Both responses are incorrect and provide misleading information about moles.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 43,
+    "instruction": "Variable x is defined as \u201c4x + 2y = 10\u201d. Find the value of x.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B is more concise and clearly states the limitation of not having a specific value for y.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 44,
+    "instruction": "Write a short paragraph about the given topic.",
+    "input": "The importance of using renewable energy",
+    "winner": "C0",
+    "justification": "Response A is more comprehensive and detailed in its discussion of renewable energy.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 45,
+    "instruction": "Explain the concept of artificial intelligence in simple terms.",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response B is more concise and directly answers the instruction.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 46,
+    "instruction": "Design an app for a delivery company.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B provides a more structured and comprehensive approach to designing the app.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 47,
+    "instruction": "Summarize the given passage.",
+    "input": "A recent study showed that global climate change is one of the most important challenges facing the world today. The consequences of global warming include rising sea levels, extreme weather events and biodiversity loss. Climate change is caused by human activities such as burning fossil fuels, and if unchecked will have long-term and devastating impacts on the planet.",
+    "winner": "C1",
+    "justification": "Response A is more comprehensive and closely follows the original passage.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 48,
+    "instruction": "Extract the facts from the paragraph.",
+    "input": "Online education continues to become more popular for schools and students alike. Its advantages are generally lower costs, less commitment and the ability to study at a time, place and pace that suits the student.",
+    "winner": "C0",
+    "justification": "Response B provides more detailed and precise facts than Response A.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 49,
+    "instruction": "Edit the following sentence to make it more concise.",
+    "input": "He ran to the bus stop in order to catch the bus that was due to arrive in five minutes.",
+    "winner": "C1",
+    "justification": "Response A is more concise and clear than Response B.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 50,
+    "instruction": "Generate a poem with 10 lines.",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses failed to follow the instruction.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 51,
+    "instruction": "Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\nFounded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.\n\nAlmost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.\n\nQuestion: What is the best restaurant in Berlin?",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses correctly state a lack of knowledge to answer the question.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 52,
+    "instruction": "A recipe for 30 cookies requires two cups of flour among its ingredients. Eduardo wants to bake five dozen cookies. How many cups of flour will he need to use in his adjusted recipe?",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response B is more concise and directly calculates the answer.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 53,
+    "instruction": "Calculate the total surface area of a cube with a side length of 5 cm.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B provides a clearer step-by-step explanation of the calculation process.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 54,
+    "instruction": "What is the force on a 1 kg mass due to the gravitational force?",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B provides a clear explanation and calculation for the force due to gravity.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 55,
+    "instruction": "Provide one example for a cultural practice.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B is more concise and clear in its description of the Japanese tea ceremony.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 56,
+    "instruction": "Given a set of numbers, find the maximum value.",
+    "input": "Set: {10, 3, 25, 6, 16}",
+    "winner": "Tie",
+    "justification": "Both responses correctly identify the maximum value as 25.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 57,
+    "instruction": "Give two examples of a liquid.",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses A and B provide the same two examples of liquids.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 58,
+    "instruction": "What is the product of 6 and 2?",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses are identical and correct.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 59,
+    "instruction": "What type of plant is a skunk cabbage?",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response A provides more accurate and detailed information about the plant's unique adaptations.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 60,
+    "instruction": "The Happy Valley Kennel has 4 chickens, 2 dogs, and 5 cats. (Some people in Happy Valley like to keep chickens as pets!) In how many ways can the 11 animals be placed in a row of 11 cages, such that all of the animals of each type are in adjacent cages? (Two animals of the same species are considered distinguishable.)",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses are mathematically correct and provide the same answer.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 61,
+    "instruction": "Name two types of desert biomes.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response A provides more detailed and informative descriptions of the desert biomes.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 62,
+    "instruction": "Given a sentence, convert it into passive voice.",
+    "input": "The dog barked at the alley cat.",
+    "winner": "Tie",
+    "justification": "Both responses correctly converted the input sentence to passive voice.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 63,
+    "instruction": "Transform the following sentence into the passive voice",
+    "input": "I bought a book",
+    "winner": "Tie",
+    "justification": "Both responses are identical and correct.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 64,
+    "instruction": "Create a dialog between two people who are discussing a scientific phenomenon",
+    "input": "Hydropower",
+    "winner": "Tie",
+    "justification": "Both responses effectively create a dialog discussing hydropower.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 65,
+    "instruction": "Identify the most suitable adverb for the following sentence",
+    "input": "She works",
+    "winner": "C1",
+    "justification": "Response B provides more options and considers different intended meanings.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 66,
+    "instruction": "Find the main idea of the following passage",
+    "input": "Climate change is an increasingly contentious global issue. It is already having a drastic effect on the environment and human lives. We are already seeing an increase in extreme weather events and rising sea levels, both of which have a major impact on the planet.",
+    "winner": "Tie",
+    "justification": "Both responses accurately summarize the passage's main idea.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 67,
+    "instruction": "Analyze the tone of the following sentences",
+    "input": "I am so upset with you right now",
+    "winner": "C0",
+    "justification": "Response A provides a more detailed and nuanced analysis of the tone.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 68,
+    "instruction": "Construct an argument to defend the following statement",
+    "input": "Alternative energy sources are critical to solving the climate crisis",
+    "winner": "Tie",
+    "justification": "Both responses provide well-structured and comprehensive arguments.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 69,
+    "instruction": "Convert the following sentence into the present continuous tense",
+    "input": "He reads books",
+    "winner": "Tie",
+    "justification": "Both responses correctly converted the sentence into the present continuous tense.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 70,
+    "instruction": "Give an example of a metaphor that uses the following object",
+    "input": "Stars",
+    "winner": "C0",
+    "justification": "Response B is more descriptive and evocative than Response A.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 71,
+    "instruction": "Create a description for a person with the following name",
+    "input": "John",
+    "winner": "C0",
+    "justification": "Response A provides a more detailed and nuanced character profile for a person named John.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 72,
+    "instruction": "What is the ones digit of 7^35 when written as an integer?",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B provides a clear and detailed explanation of the pattern.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 73,
+    "instruction": "Aim to reduce the following sentence without changing its meaning",
+    "input": "When he came in, he woke everyone up",
+    "winner": "C0",
+    "justification": "Response B is more concise and formal than Response A.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 74,
+    "instruction": "Identify the conjunctions in the following sentence",
+    "input": "She wrote a letter and sealed it",
+    "winner": "C0",
+    "justification": "Response B provides more detailed information about the conjunction's function.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 75,
+    "instruction": "Rewrite the following sentence in the third person",
+    "input": "I am anxious",
+    "winner": "C0",
+    "justification": "Response B is slightly more polished and natural-sounding than Response A.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 76,
+    "instruction": "Generate a list of business ideas for a food delivery service.",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response B provides a more comprehensive list of business ideas for a food delivery service.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 77,
+    "instruction": "Edit the following sentence to improve clarity and flow.",
+    "input": "The restaurant has great food though the prices are a bit hefty",
+    "winner": "C0",
+    "justification": "Response B is more concise and natural-sounding than Response A.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 78,
+    "instruction": "Imagine you are speaking with a customer who is unsatisfied with the product they bought from you. Construct a response that diffuses the situation.",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses effectively diffuse the situation with empathetic and professional tone.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 79,
+    "instruction": "Explain the concept of a bubble sort algorithm to a non-technical audience.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B is more concise and effectively conveys the concept of bubble sort to a non-technical audience.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 80,
+    "instruction": "Classify the following incident as a breach of protocol. Output 1 for breach, and 0 for no breach.",
+    "input": "Using a school laptop for personal use",
+    "winner": "Tie",
+    "justification": "Both responses correctly classify the incident as a breach of protocol.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 81,
+    "instruction": "Given the following input, construct a creative story.",
+    "input": "A magic bow and arrow",
+    "winner": "C0",
+    "justification": "Response A has more vivid and detailed descriptions of the magic bow and arrow.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 82,
+    "instruction": "Generate a list of methods to reduce food waste.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B provides more comprehensive and detailed methods to reduce food waste.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 83,
+    "instruction": "Propose an idea for a self-driving car.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B provides a more detailed and innovative concept for a self-driving car.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 84,
+    "instruction": "Explain the concept of a linear regression model using simple language.",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response A provides a clearer and more concise explanation of linear regression.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 85,
+    "instruction": "Construct a list of tips to help reduce stress.",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses provide similar and effective tips to reduce stress.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 86,
+    "instruction": "Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\nFounded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.\n\nAlmost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.\n\nQuestion: What events occurred in 20th century Berlin?",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses correctly state that the context lacks information about 20th century Berlin events.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 87,
+    "instruction": "Create a Twitter post to promote your new product.",
+    "input": "Alisha's All Natural Jam",
+    "winner": "C1",
+    "justification": "Response B is more concise and effectively conveys the same information as Response A.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 88,
+    "instruction": "Given the following input, classify the verb as transitive or intransitive.",
+    "input": "improve",
+    "winner": "C1",
+    "justification": "Response A provides a more comprehensive explanation by acknowledging both transitive and intransitive uses of the verb 'improve'.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 89,
+    "instruction": "Generate a list of marketing strategies to promote a new mobile app.",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response A is more complete with 8 strategies, including App Store Optimization.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 90,
+    "instruction": "Rewrite the sentence to provide more clarity and flow.",
+    "input": "Making the decision to rent a house was a wise choice",
+    "winner": "C0",
+    "justification": "Response B provides more clarity with the addition of 'proved to be'.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 91,
+    "instruction": "Give a description of the following customer segment.",
+    "input": "Online shoppers in the US aged between 18-25",
+    "winner": "Tie",
+    "justification": "Both responses provide similar and accurate descriptions of the customer segment.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 92,
+    "instruction": "Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\nPreviously, the use of dye-sub printing was limited to industrial or high-end commercial printing. Dye-sub photo printing has been used in medical imaging, graphic arts proofing, security, and broadcast-related applications. Today, it is extremely popular in event photography and photo booths or kiosks that require high-speed, on-demand printing.\n\nAlps Electric produced the first quality dye-sub printers for home consumers in the $500\u2013$1,000 price range, bringing dye-sublimation technology within the reach of a wider audience. (These models were, however, not true page printers, since they used a narrow printhead that swept across the page, like most inkjet printers.) Now there are many dye-sublimation printers on the market starting from as low as $100, especially postcard-sized mobile photo printers.\n\nThe ability to produce instant photo prints inexpensively from a small printer has led to dye sublimation solutions supplanting traditional instant photos in some applications, such as ID photography with a card printer.\n\nSeveral corporations market desktop-size units as stand-alone printers and for print kiosk and photo booth applications. Some of these units are based on generic printers. Some manufacturers, offer software development kits with their printers, suggesting that these companies hope to attract system integrators as a potential market.\n\nDesktop-size standalone dye-sub photo printers are also used by photographers in event photography. The technology allows photographers to produce and sell lab-quality prints immediately during the event they are attending, with a minimal amount of hardware. \n\nQuestion: What are the uses of a dye sublimation printer?",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response A provides a more comprehensive list of uses for dye sublimation printers.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 93,
+    "instruction": "Generate a list of country names in the western hemisphere.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response A is more concise and does not contain duplicates.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 94,
+    "instruction": "Translate the following phrase into French.",
+    "input": "I miss you",
+    "winner": "C1",
+    "justification": "Response A is a more accurate translation of the input phrase.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 95,
+    "instruction": "Explain what an API is.",
+    "input": "",
+    "winner": "Tie",
+    "justification": "Both responses accurately and clearly explain what an API is.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 96,
+    "instruction": "Compute the area of a rectangle with length 10cm and width 5cm.",
+    "input": "",
+    "winner": "C0",
+    "justification": "Response B is more concise and uses proper units for area.",
+    "flipped_order": true,
+    "parse_failed": false
+  },
+  {
+    "id": 97,
+    "instruction": "Find the capital of Spain.",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response B directly answers the question without unnecessary information.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 98,
+    "instruction": "Classify the following statement as true or false.",
+    "input": "The Supreme Court is the highest court in the US.",
+    "winner": "C0",
+    "justification": "Response A provides a clear and direct answer with additional relevant information.",
+    "flipped_order": false,
+    "parse_failed": false
+  },
+  {
+    "id": 99,
+    "instruction": "Design a database schema to record employee salaries.",
+    "input": "",
+    "winner": "C1",
+    "justification": "Response A provides a more complete and detailed explanation of the database schema.",
+    "flipped_order": true,
+    "parse_failed": false
+  }
+]

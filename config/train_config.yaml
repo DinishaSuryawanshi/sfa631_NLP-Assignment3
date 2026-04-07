@@ -1,0 +1,37 @@
+model:
+  base_model: "microsoft/Phi-3.5-mini-instruct"
+
+training:
+  stage1_dataset: "data/alpaca_train.json"
+  stage1_output_dir: "outputs/stage1_alpaca"
+  
+  stage2_dataset: "data/json_train.json"
+  stage2_output_dir: "outputs/stage2.json" 
+
+  max_seq_length: 1024
+  batch_size: 2
+  gradient_accumulation_steps: 4
+
+  epochs_stage1: 2
+  epochs_stage2: 2
+
+  learning_rate_stage1: 2e-5
+  learning_rate_stage2: 2e-6
+
+  logging_steps: 10
+  save_strategy: "epoch"
+  seed: 42
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+
+quantization:
+  load_in_4bit: true
+  quant_type: "nf4"
+
+evaluation:
+  alpaca_eval_file: "data/alpaca_eval.json"
+  json_eval_file: "data/json_train.json"
+

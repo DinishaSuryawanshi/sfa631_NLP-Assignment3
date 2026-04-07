@@ -1,0 +1,859 @@
+[
+  {
+    "id": 0,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B provides more detailed and specific advice, including the amount of exercise and the importance of quality sleep, making it a more comprehensive plan.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 1,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 1,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 2,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B directly answers the question about primary colors, while Response A only lists the primary colors without addressing the full context of the instruction.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 2,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A provides a more detailed and structured explanation of the atom's structure, including the role of energy levels and the relationship between protons, neutrons, and electrons.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 3,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses provide comprehensive and accurate strategies for reducing air pollution, with minimal risk of hallucination.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 4,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 2\n  },\n  \"justification\": \"Response A provides a more detailed and structured approach to the decision-making process, including assessment, communication, and solution development, while Response B, although clear, lacks the same level of depth and detail in its problem-solving strategy.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 5,
+    "instruction": "Write a concise summary of the following:\n\"Commodore 64 (commonly known as the C64 or CBM 64) was manufactured by Commodore Business Machine (CBM) in August 1982 with a starting price of $595. It was an 8-bit home computer with remarkable market success. Between 1983-1986, C64 sales amounted to about 17 million units sold, making them the best-selling single personal computer model of all time in 1983-1986. \n\nAdditionally, the Commodore 64 dominated the market with between 30% and 40% share and 2 million units sold per year, outselling the IBM PC clones, Apple Computers, and Atari computers. Adding to their success, Sam Tramiel (former Atari president), during an interview in 1989, said they were building 400,000 C64s a month for a couple of years. \"",
+    "input": "",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 4,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 4,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses accurately summarize the key points of the text, including the product's success and market impact, with minimal risk of hallucination.",
+    "parse_failed": false
+  },
+  {
+    "id": 6,
+    "raw_response": "```json\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 5,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A provides a more detailed and step-by-step explanation, following the instruction to provide a detailed explanation.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 7,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 3,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A is more complete and effectively concludes the story, while Response B leaves the decision unresolved.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 8,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses correctly identified and corrected the spelling and grammar mistakes in the input sentence.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 9,
+    "instruction": "How did Julius Caesar die?",
+    "input": "",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses accurately and clearly describe Julius Caesar's death, with no significant differences in correctness, clarity, or completeness.",
+    "parse_failed": false
+  },
+  {
+    "id": 10,
+    "instruction": "What is the capital of France?",
+    "input": "",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses are identical and accurately answer the question.",
+    "parse_failed": false
+  },
+  {
+    "id": 11,
+    "instruction": "Generate a list of ten items a person might need for a camping trip",
+    "input": "",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses provide a list of 10 essential items for a camping trip, with minimal differences in content and no significant errors or hallucinations.",
+    "parse_failed": false
+  },
+  {
+    "id": 12,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses provide accurate and clear information about the causes of the Great Depression, including the stock market crash and bank failures, with no significant differences in quality or content.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 13,
+    "raw_response": "```json\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 3,\n    \"correctness\": 5,\n    \"clarity\": 3,\n    \"completeness\": 3,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A correctly classified all items and provided additional relevant information, following the instruction more thoroughly than Response B.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 14,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses effectively explain the use of word embeddings in NLP, covering key concepts such as semantic similarity, dimensionality reduction, and transfer learning, with minimal risk of hallucination.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 15,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A provides a more detailed and comprehensive description of the motherboard's function and components.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 16,
+    "raw_response": "```json\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 2,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 4,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B provides a docstring and corrects the loop range issue, making it more complete and correct.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 17,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses provide comprehensive and ethical solutions to the problem of data privacy, with similar approaches and principles, making them effectively equivalent.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 18,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 2,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 2\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B directly answers the question with three verbs that mean the same as 'to apologize', while Response A does not fully follow the instruction to provide different parts of speech and sentences for each.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 19,
+    "instruction": "What does DNA stand for?",
+    "input": "",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses accurately answer the question and provide additional relevant information about DNA, with no significant differences in quality or content.",
+    "parse_failed": false
+  },
+  {
+    "id": 20,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 2\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B provides more detailed and specific information about both events, including the resolution of the Cuban Missile Crisis and the involvement of other countries in the Vietnam War.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 21,
+    "instruction": "Generate a list of random words.",
+    "input": "",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses provide a list of 20 random words as instructed, with no errors or hallucinations.",
+    "parse_failed": false
+  },
+  {
+    "id": 22,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 1,\n    \"correctness\": 1,\n    \"clarity\": 1,\n    \"completeness\": 1,\n    \"hallucination_risk\": 5\n  },\n  \"justification\": \"Response A correctly changed the tense to future, while Response B did not follow the instruction for the given input and also provided a sentence that was not relevant to the input.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 23,
+    "instruction": "Who is the world's most famous painter?",
+    "input": "",
+    "winner": "C0",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 3,
+      "hallucination_risk": 2
+    },
+    "justification": "Response A provides a more detailed and informative answer, listing specific artists and their notable works, while Response B gives a more general answer without providing specific examples or details.",
+    "parse_failed": false
+  },
+  {
+    "id": 24,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 2\n  },\n  \"justification\": \"Response A provides a more detailed and accurate explanation of cogging torque, including the magnetic interaction, slot harmonics, and torque ripple, while Response B provides a more general overview with some simplifications and less technical detail.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 25,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses accurately provide the boiling point of water at standard atmospheric pressure.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 26,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 2\n  },\n  \"justification\": \"Response A provides a more detailed and accurate account of King Charles II's early life and the circumstances of his ascension to the throne, while Response B includes some correct information but lacks the depth and precision of Response A.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 27,
+    "raw_response": "```json\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B provides a more complete and accurate calculation of the area, including an approximation using the value of \u03c0.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 28,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 1,\n    \"correctness\": 1,\n    \"clarity\": 4,\n    \"completeness\": 1,\n    \"hallucination_risk\": 2\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 1,\n    \"correctness\": 1,\n    \"clarity\": 4,\n    \"completeness\": 1,\n    \"hallucination_risk\": 2\n  },\n  \"justification\": \"Neither response correctly identifies the line of longitude that divides North and South America, but both provide clear and coherent, albeit incorrect, information.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 29,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 4,\n    \"clarity\": 5,\n    \"completeness\": 3,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A provides a more detailed and accurate explanation of the cellular respiration process in plants, including the three main stages and the role of the mitochondria.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 30,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 1,\n    \"correctness\": 1,\n    \"clarity\": 1,\n    \"completeness\": 1,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A correctly rewrote the sentence in active voice, while Response B failed to follow the instruction.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 31,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 2\n  },\n  \"justification\": \"Response A provides a more comprehensive and accurate list of adjectives that describe a person as brave, with no duplicates. Response B includes 'Daunt' which is not typically used as an adjective to describe a person, and also has a duplicate 'Dauntless'.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 32,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses effectively outline the consequences of deforestation, including loss of biodiversity, climate change, and environmental impacts, with similar clarity and correctness.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 33,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A provides a more comprehensive plan with 8 actionable steps, while Response B provides 5 steps and more introductory text.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 34,
+    "raw_response": "```json\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B correctly places the adverb 'quickly' at the end of the sentence, maintaining grammatical correctness and clarity.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 35,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 1,\n    \"correctness\": 1,\n    \"clarity\": 3,\n    \"completeness\": 1,\n    \"hallucination_risk\": 4\n  },\n  \"justification\": \"Response A accurately analyzed the given text for its tone, while Response B failed to follow the instruction and analyzed a different text.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 36,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 5\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 5\n  },\n  \"justification\": \"Both responses attempt to solve the problem but neither provides the final answer, making them effectively equivalent in terms of instruction following and correctness.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 37,
+    "instruction": "Rewrite the given paragraph in a shorter, easier to understand form.",
+    "input": "Although it is generally accepted that the internet has allowed us to connect with people all over the world, there are still those people who are not familiar with its basic functions, who don\u2019t understand why it has become so commonplace, or what its true capabilities are.",
+    "winner": "C1",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 4,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "hallucination_risk": 1
+    },
+    "justification": "Response A is more concise and easier to understand.",
+    "parse_failed": false
+  },
+  {
+    "id": 38,
+    "instruction": "Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\nFounded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.\n\nAlmost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.\n\nQuestion: What is the best restaurant in Berlin?",
+    "input": "",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses follow instructions, are correct, clear, and complete, and do not hallucinate, as they both state a lack of knowledge.",
+    "parse_failed": false
+  },
+  {
+    "id": 39,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses effectively express joy through poetic language and imagery, with no significant differences in quality or content.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 40,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses provide equivalent step-by-step solutions to the equation, with minor differences in formatting and clarity.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 41,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses provide comprehensive and accurate solutions to reduce water pollution, with minimal risk of hallucination.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 42,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 2,\n    \"correctness\": 2,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 3\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 2,\n    \"correctness\": 2,\n    \"clarity\": 3,\n    \"completeness\": 2,\n    \"hallucination_risk\": 3\n  },\n  \"justification\": \"Both responses incorrectly argue that a mole is not an animal, which is factually wrong, but provide some correct information about moles.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 43,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses correctly solve for x in terms of y and provide equivalent expressions.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 44,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B provides a more comprehensive and detailed discussion of the importance of renewable energy, covering its environmental benefits, economic advantages, and role in promoting energy independence and security.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 45,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses accurately and clearly explain the concept of artificial intelligence in simple terms.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 46,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 2\n  },\n  \"justification\": \"Response A provides a more structured approach to designing the app, including market research and requirements gathering, which is a crucial step in the development process. Although Response B lists key features, it lacks the depth and organization of Response A.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 47,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B more closely follows the instruction to summarize the passage, covering all key points including causes, consequences, and long-term impacts, while Response A is more concise but lacks the full scope of details.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 48,
+    "instruction": "Extract the facts from the paragraph.",
+    "input": "Online education continues to become more popular for schools and students alike. Its advantages are generally lower costs, less commitment and the ability to study at a time, place and pace that suits the student.",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses accurately extract the facts from the paragraph without adding extra information or omitting key points.",
+    "parse_failed": false
+  },
+  {
+    "id": 49,
+    "raw_response": "```json\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A is more concise and clear, effectively conveying the original message with fewer words.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 50,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 2\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 1,\n    \"correctness\": 3,\n    \"clarity\": 3,\n    \"completeness\": 2,\n    \"hallucination_risk\": 3\n  },\n  \"justification\": \"Response A attempted to follow the instruction, although it exceeded the 10-line limit, while Response B completely failed to follow the instruction and generated an unrelated poem.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 51,
+    "instruction": "Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\nFounded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.\n\nAlmost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.\n\nQuestion: What is the best restaurant in Berlin?",
+    "input": "",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses follow instructions, are correct, clear, and complete, and do not hallucinate, as they both state a lack of knowledge.",
+    "parse_failed": false
+  },
+  {
+    "id": 52,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses accurately calculate the amount of flour needed and clearly explain their reasoning.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 53,
+    "raw_response": "```json\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses are correct and clear, but Response B is more concise and directly answers the question.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 54,
+    "raw_response": "```json\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 1,\n    \"correctness\": 1,\n    \"clarity\": 1,\n    \"completeness\": 1,\n    \"hallucination_risk\": 5\n  },\n  \"justification\": \"Response A provides a clear and complete explanation of the force due to gravity, including the relevant equation and calculation, while Response B is incomplete and lacks clarity.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 55,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 2\n  },\n  \"justification\": \"Response A provides more detailed information about the cultural practice, including its historical roots, the principles it embodies, and the mindfulness aspect, making it a more comprehensive and accurate response.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 56,
+    "instruction": "Given a set of numbers, find the maximum value.",
+    "input": "Set: {10, 3, 25, 6, 16}",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses correctly identify the maximum value in the set.",
+    "parse_failed": false
+  },
+  {
+    "id": 57,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses correctly list two examples of liquids, water and oil, with no additional unnecessary information.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 58,
+    "instruction": "What is the product of 6 and 2?",
+    "input": "",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses accurately and clearly answer the question with no unnecessary information.",
+    "parse_failed": false
+  },
+  {
+    "id": 59,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 2,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 3\n  },\n  \"justification\": \"Response A accurately identifies the plant and provides relevant information, while Response B contains errors in classification and emphasizes an adaptation not present in the initial question context.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 60,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 4,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses are mathematically correct and provide the same solution, with Response B providing slightly more detailed explanation.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 61,
+    "instruction": "Name two types of desert biomes.",
+    "input": "",
+    "winner": "C0",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 3,
+      "completeness": 2,
+      "hallucination_risk": 1
+    },
+    "justification": "Response A provides more detailed and accurate information about the two types of desert biomes.",
+    "parse_failed": false
+  },
+  {
+    "id": 62,
+    "instruction": "Given a sentence, convert it into passive voice.",
+    "input": "The dog barked at the alley cat.",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses accurately converted the sentence to passive voice.",
+    "parse_failed": false
+  },
+  {
+    "id": 63,
+    "instruction": "Transform the following sentence into the passive voice",
+    "input": "I bought a book",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses correctly transform the sentence into the passive voice.",
+    "parse_failed": false
+  },
+  {
+    "id": 64,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses effectively create a dialog discussing hydropower, providing accurate and clear information about the scientific phenomenon.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 65,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 2,\n    \"correctness\": 3,\n    \"clarity\": 3,\n    \"completeness\": 2,\n    \"hallucination_risk\": 4\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B directly addresses the instruction, provides multiple suitable adverbs, and explains their usage, while Response A only provides one adverb without explanation.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 66,
+    "instruction": "Find the main idea of the following passage",
+    "input": "Climate change is an increasingly contentious global issue. It is already having a drastic effect on the environment and human lives. We are already seeing an increase in extreme weather events and rising sea levels, both of which have a major impact on the planet.",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses accurately identify the main idea of the passage with similar wording and content.",
+    "parse_failed": false
+  },
+  {
+    "id": 67,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 2\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B provides a more detailed and nuanced analysis of the tone, considering the context, emotional state, and potential consequences, while Response A is more general and lacks depth.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 68,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses effectively argue in favor of alternative energy sources, providing similar points about reducing greenhouse gas emissions and the sustainability of these sources, with no significant differences in quality or content.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 69,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses correctly converted the sentence into the present continuous tense.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 70,
+    "instruction": "Give an example of a metaphor that uses the following object",
+    "input": "Stars",
+    "winner": "C0",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 2,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 2,
+      "hallucination_risk": 1
+    },
+    "justification": "Response A is more poetic and effectively uses the stars as a metaphor, while Response B is more simplistic and lacks depth.",
+    "parse_failed": false
+  },
+  {
+    "id": 71,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 2\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 2,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 2,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A provides a detailed and immersive character profile for a person named John, while Response B fails to follow the instruction and instead provides general information about the name John.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 72,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 3,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B provides a clear and detailed explanation of the pattern, while Response A only gives the answer without explanation.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 73,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 4\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 5\n  },\n  \"justification\": \"Response B used more sophisticated vocabulary and maintained the original meaning of the sentence.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 74,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 1,\n    \"correctness\": 2,\n    \"clarity\": 2,\n    \"completeness\": 1,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A correctly identified both conjunctions, explained their functions, and classified their types, while Response B only identified one conjunction and failed to follow the full instruction.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 75,
+    "raw_response": "```json\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses accurately rewrote the sentences in the third person, past tense, and used complex sentence structures with subordinate clauses, effectively conveying the original emotions and reasons.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 76,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 2\n  },\n  \"justification\": \"Response A provides more detailed and specific business ideas, while Response B has some repetitive ideas and lacks detail in some points.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 77,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 5\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 5\n  },\n  \"justification\": \"Response B better addresses the instructions by providing more descriptive and complex sentences that meet all requirements.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 78,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A is more comprehensive and empathetic, addressing the customer's concerns and inviting them to a product demonstration, while Response B is more generic and lacks specific solutions.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 79,
+    "raw_response": "```json\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 2,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 2\n  },\n  \"justification\": \"Response A effectively explains the concept of bubble sort to a non-technical audience, while Response B fails to follow the instruction and instead provides a general explanation of the algorithm, missing the mark on the target audience and the comprehensive guide requested.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 80,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 1,\n    \"correctness\": 1,\n    \"clarity\": 1,\n    \"completeness\": 1,\n    \"hallucination_risk\": 5\n  },\n  \"justification\": \"Response A directly answers the question with a clear and correct classification, while Response B fails to address the given scenario.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 81,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 3\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 2\n  },\n  \"justification\": \"Response B provides a more immersive and detailed story, with a clearer structure and more vivid descriptions, making it a more engaging and creative tale.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 82,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A provides a more comprehensive list of methods to reduce food waste.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 83,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 2\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B provides a more detailed and innovative idea for a self-driving car, including a 'Smart Car Sharing Network' concept with specific features and benefits.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 84,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A provides a clearer and more comprehensive explanation of linear regression, including examples and definitions of independent and dependent variables.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 85,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B provides more comprehensive tips to reduce stress, including prioritizing tasks, avoiding procrastination, and practicing gratitude, making it a more complete response.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 86,
+    "instruction": "Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\nFounded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.\n\nAlmost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.\n\nQuestion: What events occurred in 20th century Berlin?",
+    "input": "",
+    "winner": "Tie",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Both responses accurately state that the provided context does not contain information about 20th century Berlin events.",
+    "parse_failed": false
+  },
+  {
+    "id": 87,
+    "raw_response": "{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 3\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 5\n  },\n  \"justification\": \"Response B is more concise and directly promotes the product, while Response A has some unclear sentences and potential hallucination risk with the phrase 'Alisha\\'oremoved from the supermarket shelves'.\"\n}",
+    "parse_failed": true
+  },
+  {
+    "id": 88,
+    "raw_response": "```\n{\n  \"winner\": \"B\",\n  \"response_a_scores\": {\n    \"instruction_following\": 4,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 3,\n    \"hallucination_risk\": 2\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response B provides a more comprehensive and accurate explanation of the verb 'improve', acknowledging its potential use as both a transitive and intransitive verb with clear examples.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 89,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses provide a list of effective marketing strategies, with Response B being slightly more complete.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 90,
+    "instruction": "Rewrite the sentence to provide more clarity and flow.",
+    "input": "Making the decision to rent a house was a wise choice",
+    "winner": "C0",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "justification": "Response A provides more clarity and flow by using 'proved to be' which adds a sense of confirmation to the decision.",
+    "parse_failed": false
+  },
+  {
+    "id": 91,
+    "instruction": "Give a description of the following customer segment.",
+    "input": "Online shoppers in the US aged between 18-25",
+    "winner": "C0",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "hallucination_risk": 1
+    },
+    "justification": "Response A provides a more detailed and comprehensive description of the customer segment, including specific interests and marketing strategies, while Response B is more general and lacks some of the key characteristics mentioned in Response A.",
+    "parse_failed": false
+  },
+  {
+    "id": 92,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 4,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A is more comprehensive in listing the various applications of dye sublimation printers.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 93,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 2,\n    \"correctness\": 3,\n    \"clarity\": 3,\n    \"completeness\": 3,\n    \"hallucination_risk\": 4\n  },\n  \"justification\": \"Response A provides a clear, concise, and accurate list of country names in the western hemisphere without duplicates, while Response B contains duplicates and is less organized.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 94,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 2,\n    \"correctness\": 2,\n    \"clarity\": 2,\n    \"completeness\": 2,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A accurately translates 'I miss you' to 'Tu me manques', while Response B incorrectly translates it to 'Je manque de toi', which means 'I lack you'.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 95,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 2\n  },\n  \"justification\": \"Response A provides a more detailed and structured explanation of what an API is, including key aspects such as interface, protocols, methods, and data formats.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 96,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses accurately calculate the area of the rectangle and provide clear explanations.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 97,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses correctly identify Madrid as the capital of Spain with no additional unnecessary information.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 98,
+    "raw_response": "```\n{\n  \"winner\": \"Tie\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Both responses accurately classify the statement as true.\"\n}\n```",
+    "parse_failed": true
+  },
+  {
+    "id": 99,
+    "raw_response": "```\n{\n  \"winner\": \"A\",\n  \"response_a_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 5,\n    \"clarity\": 5,\n    \"completeness\": 5,\n    \"hallucination_risk\": 1\n  },\n  \"response_b_scores\": {\n    \"instruction_following\": 5,\n    \"correctness\": 4,\n    \"clarity\": 4,\n    \"completeness\": 4,\n    \"hallucination_risk\": 1\n  },\n  \"justification\": \"Response A provides a more detailed and complete database schema, including the relationship between tables and a clear explanation of each field.\"\n}\n```",
+    "parse_failed": true
+  }
+]
